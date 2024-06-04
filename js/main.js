@@ -1,4 +1,4 @@
-/*const video = document.querySelector(".video-container video");
+const video = document.querySelector(".video-container video");
 //const hoverText = document.querySelector(".video-container .hover-text");
 
 video.addEventListener("click", () => {
@@ -12,7 +12,7 @@ video.addEventListener("click", () => {
 });
 
 
-const observer= new IntersectionObserver((entries) =>{
+/*const observer= new IntersectionObserver((entries) =>{
     entries.forEach((entry) => {
         console.log(entry)
         if ( entry.isIntersecting) {
@@ -22,13 +22,13 @@ const observer= new IntersectionObserver((entries) =>{
         }
     });
 
-});
-hiddenElements.forEach((el) => observer.observe(el));
+});*/
+//hiddenElements.forEach((el) => observer.observe(el));
 
 
-const hiddenElements = document.querySelectorAll('.hidden');
+//const hiddenElements = document.querySelectorAll('.hidden');
 
-*/
+
 function createPopup(id){
     let popupNode = document.querySelector(id);
     let overlay = popupNode.querySelector(".overlay");
