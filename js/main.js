@@ -1,4 +1,4 @@
-const video = document.querySelector(".video-container video");
+const video = document.querySelector(".video-container source");
 //const hoverText = document.querySelector(".video-container .hover-text");
 
 video.addEventListener("click", () => {
